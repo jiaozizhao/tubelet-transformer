@@ -67,6 +67,8 @@ python3  eval_tuber_ava.py <CONFIG_FILE>
 python3 eval_tuber_ava.py configuration/TubeR_CSN152_AVA21.yaml
 ```
 
+For UCF101-24 and JHMDB evaluation, please refer to [ACT-Detector](https://github.com/vkalogeiton/caffe/tree/act-detector).
+
 ### Training
 To train TubeR from scratch, first modify the configfile:
 - set the correct `WORLD_SIZE`, `GPU_WORLD_SIZE`, `DIST_URL`, `WOLRD_URLS` based on experiment setup.
